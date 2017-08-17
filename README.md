@@ -79,8 +79,10 @@ systemctl status pmc
 More info about systemctl at https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units
 
 ### TODO:
+
 - systemd init scripts
 - plotting capabilities
 	
 ###Know Bugs
+
 Sometimes the influxdb register complains with ```unsupported point type: time.Duration```
