@@ -83,6 +83,3 @@ More info about systemctl at https://www.digitalocean.com/community/tutorials/ho
 - systemd init scripts
 - plotting capabilities
 	
-###Know Bugs
-
-Sometimes the influxdb register complains with ```unsupported point type: time.Duration```
