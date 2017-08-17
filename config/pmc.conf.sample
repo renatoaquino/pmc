@@ -1,0 +1,27 @@
+[[verify]]
+type="http"
+label="Awesome Identifier"
+config="http://www.amazon.com"
+every="5m"
+timeout="1s"
+
+[[verify]]
+type="dns"
+label="Some lookup check identifier"
+config="google.com"
+every="1d"
+timeout="30ms"
+
+[[verify]]
+type="ping"
+label="Raw socket ping identifier"
+config="apple.com"
+every="5m"
+timeout="1s"
+
+[[register]]
+type="text"
+
+[[register]]
+type="influxdb"
+config="http://username:password@host:port?db=dbname&series=seriesname"
