@@ -80,6 +80,5 @@ More info about systemctl at https://www.digitalocean.com/community/tutorials/ho
 
 ### TODO:
 
-- systemd init scripts
 - plotting capabilities
 	
